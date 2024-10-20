@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/home.css">
+    <title>HOME</title>
+</head>
+<body>
+    <main>
+        <section class="contenedor">
+            <h1 class="title">CUENTAS REGISTRADAS:</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="table_header">Nombre</th>
+                        <th class="table_header">Correo</th>
+                        <th class="table_header">Telefono</th>
+                        <th class="table_header">Cumpleaños</th>
+                        <th class="table_header">Contraseña</th>
+                        <th class="table_header">Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" class="table_body">
+                </tbody>
+            </table><br><br>
+            <form id="editar" class="form">
+                <input type="text" placeholder=" " id="nombreedit" class="form_input">
+                <input type="email" placeholder=" " id="correoedit" class="form_input">
+                <input type="text" placeholder=" " id="telefonoedit" class="form_input">
+                <input type="date" id="fechaedit" class="form_input">
+                <input type="text" placeholder=" " id="contraseñaedit" class="form_input">
+                <button type="submit" id="submitButton" class="button button--primary">Guardar</button>
+            </form>
+            <br><br>
+            <button class="out" id="out">Cerrar Sesion</button>
+        </section>
+    </main>
+    <script src="js/home.js"></script>
+</body>
+</html>
